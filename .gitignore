@@ -1,0 +1,5 @@
+# 디버그용 파일 무시
+yna_debug.html
+
+# 파이썬 캐시 파일 무시
+__pycache__/
