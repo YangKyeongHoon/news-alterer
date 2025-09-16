@@ -55,8 +55,8 @@ def main():
                 articles = soup.select('.item-box01, .item-box02')
                 
                 if articles:
-                    print("--- 연합뉴스 최신 기사 (상위 5개) ---")
-                    for i, article in enumerate(articles[:5], 1):
+                    print("--- 연합뉴스 최신 기사 (상위 10개) ---")
+                    for i, article in enumerate(articles[:10], 1):
                         title_tag = article.select_one('a.tit-news')
                         
                         if not title_tag:
